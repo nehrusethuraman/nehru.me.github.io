@@ -1,0 +1,69 @@
+baseURL = 'https://nehru.me/'
+languageCode = 'en-us'
+title = 'Nehru Sethuraman'
+theme = 'hugo-theme'
+paginate = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Cybersecurity enthusiast passionate about breaking, learning, and securing systems."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Nehru Sethuraman"
+    keywords = ""
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "Cybersecurity Professional"
+
+    [languages.en.params.logo]
+      logoText = "Nehru Sethuraman"
+      logoHomeLink = "/"
+
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+  [[params.social]]
+    name = "hackthebox"
+    url = "https://app.hackthebox.com/profile/150766"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:mail@nehru.me"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/nehrusethuraman"
+
+  [[params.social]]
+    name = "X"
+    url = "https://x.com/ellosys"
